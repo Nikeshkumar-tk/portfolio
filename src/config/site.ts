@@ -6,6 +6,10 @@ export const siteConfig = {
             link: "/"
         },
         {
+            header: "Expertise",
+            link: "/expertise"
+        },
+        {
             header: "Projects",
             link: "/projects"
         },

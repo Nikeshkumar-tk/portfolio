@@ -14,7 +14,7 @@ function NavLinks() {
   return (
     <div className="flex h-14 items-center gap-9">
       {siteConfig.nav_links.map((link) => (
-        <a href={link.link} className="line-clamp-2 text-lg leading-snug text-gray-700 font-mono">
+        <a key={link.link} href={link.link} className="hover:animate-bounce line-clamp-2 text-lg leading-snug text-gray-700 font-mono">
           {link.header}
         </a>
       ))}
